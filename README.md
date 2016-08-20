@@ -16,6 +16,39 @@ jekyll server
 
 *Note: it's better to clone this repo instead of download the content. This way, you can always update the repo with a `git pull` command.*
 
+# Adding, updating and removing docs
+
+All documentation pages go under the `/docs` folder. Create folders under the `/docs` and put pages there:
+
+Example:
+
+```
+/docs
+   |- basics
+        |- elements.html
+   |- applications
+        |- helloworld.html
+   |- faq
+        |- index.html
+```
+
+Each page can define this parameters:
+
+- layout
+- title
+- categories
+- permalink
+
+Example: 
+
+```
+layout: doc
+title: Typography
+categories: basics
+permalink: /docs/basics/typography/
+```
+
+
 # Details
 
 ### What is Kissui?
