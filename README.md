@@ -4,6 +4,18 @@
 
 Kissui + Markdown = :rocket:
 
+# Installation
+
+Before you start, make sure you have Jekyll installed. Read [here](http://jekyllrb.com/docs/installation/) for a quick installtion.
+
+After installing Jekyll, clone or download this repo, open Terminal, `cd` to the `doc42` folder and run:
+
+```
+jekyll server
+```
+
+*Note: it's better to clone this repo instead of download the content. This way, you can always update the repo with a `git pull` command.*
+
 # Details
 
 ### What is Kissui?
