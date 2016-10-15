@@ -1,0 +1,16 @@
+# Site settings
+title: Doc42
+email: afshin.meh@gmail.com
+description: > 
+     Doc42 - an easy to use documentation tool
+
+baseurl: "" # the subpath of your doc, e.g. /doc
+url: "http://doc42.io" # the base hostname & protocol for your site
+twitter_username: usablica
+github_username:  usablica
+
+# use this to define the categories of your documentation
+category-list: [basics, elements, extra]
+
+# Build settings
+markdown: kramdown

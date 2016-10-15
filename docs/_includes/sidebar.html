@@ -1,0 +1,33 @@
+<nav class="basic border fluid vertical menu" data-kui-sticky>
+    {% for cat in site.category-list %}
+
+    <div class="items">
+        <div class="icon item header">
+            {% if cat == 'basics' %}<i class="fa fa-gear"></i>{% endif %}
+            {% if cat == 'elements' %}<i class="fa fa-cube"></i>{% endif %}
+            {% if cat == 'extra' %}<i class="fa fa-expand"></i>{% endif %}{{ cat }}
+        </div>
+        {% for p in site.pages %}
+            {% for pc in p.categories %}
+              {% if pc == cat %}
+                {% if page.permalink == p.url %} 
+                  {% if page.table-of-content != nil %}
+                      <div class="secondary items">
+                          <div class="active item header">{{ p.title }}</div>
+                          {% for p in page.table-of-content %}
+                              <a class="item" href="#{{p | downcase | replace:' ','-' }}">{{p}}</a>
+                          {% endfor %}
+                      </div>
+                  {% else %}
+                      <span class="active item">{{ p.title }}</span>
+                  {% endif %}
+
+                {%else%}
+                  <a class="item" href="{{ p.url }}">{{ p.title }}</a>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+    {% endfor %}
+</nav>
