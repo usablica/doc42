@@ -3,11 +3,11 @@
 
     <div class="items">
         <div class="icon item header">
-            {% if cat == 'basics' %}<i class="fa fa-gear"></i>{% endif %}
-            {% if cat == 'elements' %}<i class="fa fa-cube"></i>{% endif %}
-            {% if cat == 'extra' %}<i class="fa fa-expand"></i>{% endif %}{{ cat }}
+            <i class="fa fa-{{site.category-icons[forloop.index0]}}"></i>{{ cat | replace: "-", " " }}
         </div>
-        {% for p in site.pages %}
+        {% assign pages = site.pages | sort:"weight"  %}
+
+        {% for p in pages %}
             {% for pc in p.categories %}
               {% if pc == cat %}
                 {% if page.permalink == p.url %} 
