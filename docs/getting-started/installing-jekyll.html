@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Doc42 - Installing Jekyll</title>
+  <meta name="description" content="Doc42 - an easy to use documentation tool">
+  <meta name="keywords" content="doc42, documentation, doc, usablica, jekyll">
+  <meta name="author" content="Afshin Mehrabani">
+  <meta name="generator" content="Doc42 0.1.0">
+
+  <link rel="stylesheet" href="/docs/css/kissui.css">
+  <link rel="stylesheet" href="/docs/css/custom.css">
+  <link rel="stylesheet" href="/docs/css/sticky.min.css">
+  <link rel="canonical" href="http://doc42.io/docs/getting-started/installing-jekyll">
+  <link rel="alternate" type="application/rss+xml" title="Doc42" href="http://doc42.io/docs/feed.xml">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.css">
+</head>
+
+
+  <body>
+      <div class="row">
+    <header class="animated fadeIn" id="main_header">
+        <nav class="basic border menu">
+            <div class="fluid">
+                <a class="header item" href="/docs/">
+                    <img src='/docs/images/mini-logo.png' /> 
+                    Doc42
+                </a>
+
+                <a class="item" href="/">Home</a>
+                <a class="item" href="/docs/">Documentation</a>
+                <a class="item" href="https://github.com/usablica/doc42/releases" target="_blank">Download</a>
+                <a class="item" href="/docs/support" target="_blank">Support</a>
+            </div>
+        </nav>
+    </header>
+</div>
+
+
+      <div class="fluid">
+          <div class="wrapper">
+              <div class="row">
+    <div class="two columns">
+        <nav class="basic border fluid vertical menu" data-kui-sticky>
+    
+
+    <div class="items">
+        <div class="icon item header">
+            <i class="fa fa-gear"></i>getting started
+        </div>
+        
+
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+        
+            
+              
+            
+        
+            
+              
+                
+                    <a class="item" href="/docs/getting-started/start">Quick Start</a>
+                
+              
+            
+        
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+              
+                
+                    <a class="item" href="/docs/getting-started/welcome">Welcome</a>
+                
+              
+            
+        
+            
+              
+                 
+                  
+                      <span class="active item">Installing Jekyll</span>
+                  
+
+                
+              
+            
+        
+    </div>
+    
+
+    <div class="items">
+        <div class="icon item header">
+            <i class="fa fa-cube"></i>pages
+        </div>
+        
+
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+        
+            
+              
+                
+                    <a class="item" href="/docs/pages/structure">Structure</a>
+                
+              
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+    </div>
+    
+
+    <div class="items">
+        <div class="icon item header">
+            <i class="fa fa-dashboard"></i>site
+        </div>
+        
+
+        
+            
+              
+                
+                    <a class="item" href="/docs/site/configuration/">Configuration</a>
+                
+              
+            
+        
+            
+              
+            
+        
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+    </div>
+    
+
+    <div class="items">
+        <div class="icon item header">
+            <i class="fa fa-code"></i>developers
+        </div>
+        
+
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+        
+            
+              
+            
+        
+            
+              
+                
+                    <a class="item" href="/docs/developers/templates/">Templates</a>
+                
+              
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+    </div>
+    
+
+    <div class="items">
+        <div class="icon item header">
+            <i class="fa fa-expand"></i>extra
+        </div>
+        
+
+        
+            
+              
+            
+        
+            
+              
+                
+                    <a class="item" href="/docs/customers/">Who uses Doc42?</a>
+                
+              
+            
+        
+            
+        
+            
+              
+                
+                    <a class="item" href="/docs/support">Help</a>
+                
+              
+            
+        
+            
+              
+            
+        
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+            
+              
+            
+        
+    </div>
+    
+</nav>
+
+    </div>
+
+    <div class="eight columns page-content">
+        <header class="post-header">
+            <h3 class="post-title">Installing Jekyll</h3>
+        </header>
+
+        <div class="post-content docs">
+            <p>Getting Jekyll installed and ready-to-go should only take a few minutes.
+If it ever becomes a pain, please <a href="/issues/new">file an issue</a>
+(or submit a pull request) describing the issue you
+encountered and how we might make the process easier.</p>
+
+<h3 id="requirements">Requirements</h3>
+
+<p>Installing Jekyll is easy and straight-forward, but there are a few
+requirements you’ll need to make sure your system has before you start.</p>
+
+<ul>
+  <li><a href="https://www.ruby-lang.org/en/downloads/">Ruby</a> (including development
+headers, v1.9.3 or above for Jekyll 2 and v2 or above for Jekyll 3)</li>
+  <li><a href="https://rubygems.org/pages/download">RubyGems</a></li>
+  <li>Linux, Unix, or macOS</li>
+  <li><a href="https://nodejs.org/">NodeJS</a>, or another JavaScript runtime (Jekyll 2 and
+earlier, for CoffeeScript support).</li>
+  <li><a href="https://www.python.org/downloads/">Python 2.7</a> (for Jekyll 2 and earlier)</li>
+</ul>
+
+<div class="note info">
+  <h5>Running Jekyll on Windows</h5>
+  <p>
+    While Windows is not officially supported, it is possible to get it running
+    on Windows. Special instructions can be found on our
+    <a href="../windows/#installation">Windows-specific docs page</a>.
+  </p>
+</div>
+
+<h3 id="install-with-rubygems">Install with RubyGems</h3>
+
+<p>The best way to install Jekyll is via
+<a href="http://rubygems.org/pages/download">RubyGems</a>. At the terminal prompt,
+simply run the following command to install Jekyll:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>gem install jekyll
+</code></pre>
+</div>
+
+<p>All of Jekyll’s gem dependencies are automatically installed by the above
+command, so you won’t have to worry about them at all. If you have problems
+installing Jekyll, check out the <a href="../troubleshooting/">troubleshooting</a> page or
+<a href="/issues/new">report an issue</a> so the Jekyll
+community can improve the experience for everyone.</p>
+
+<div class="note info">
+  <h5>Installing Xcode Command-Line Tools</h5>
+  <p>
+    If you run into issues installing Jekyll's dependencies which make use of
+    native extensions and are using macOS, you will need to install Xcode
+    and the Command-Line Tools it ships with. Download them in
+    <code>Preferences &#8594; Downloads &#8594; Components</code>.
+  </p>
+</div>
+
+<h3 id="pre-releases">Pre-releases</h3>
+
+<p>In order to install a pre-release, make sure you have all the requirements
+installed properly and run:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code>gem install jekyll --pre
+</code></pre>
+</div>
+
+<p>This will install the latest pre-release. If you want a particular pre-release,
+use the <code class="highlighter-rouge">-v</code> switch to indicate the version you’d like to install:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code>gem install jekyll -v <span class="s1">'2.0.0.alpha.1'</span>
+</code></pre>
+</div>
+
+<p>If you’d like to install a development version of Jekyll, the process is a bit
+more involved. This gives you the advantage of having the latest and greatest,
+but may be unstable.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>git clone git://github.com/jekyll/jekyll.git
+<span class="gp">$ </span><span class="nb">cd </span>jekyll
+<span class="gp">$ </span>script/bootstrap
+<span class="gp">$ </span>bundle <span class="nb">exec </span>rake build
+<span class="gp">$ </span>ls pkg/<span class="k">*</span>.gem | head -n 1 | xargs gem install -l
+</code></pre>
+</div>
+
+<h3 id="optional-extras">Optional Extras</h3>
+
+<p>There are a number of (optional) extra features that Jekyll supports that you
+may want to install, depending on how you plan to use Jekyll. These extras
+include LaTeX support, and the use of alternative content rendering engines.
+Check out <a href="../extras/">the extras page</a> for more information.</p>
+
+<div class="note">
+  <h5>ProTip™: Enable Syntax Highlighting</h5>
+  <p>
+    If you’re the kind of person who is using Jekyll, then chances are you’ll
+    want to enable syntax highlighting using <a href="http://pygments.org/">Pygments</a>
+    or <a href="https://github.com/jayferd/rouge">Rouge</a>. You should really
+    <a href="../templates/#code-snippet-highlighting">check out how to
+    do that</a> before you go any farther.
+  </p>
+</div>
+
+<p>Now that you’ve got everything installed, let’s get to work!</p>
+
+        </div>
+    </div>
+
+    <div id="contents" class="two columns">
+        <div data-kui-sticky></div>
+    </div>
+</div>
+
+          </div>
+      </div>
+
+      <div class="grid">
+    <div class="row">
+        <footer class="basic menu top border animated fadeInUp">
+            <div class="fluid">
+            <a class="item" href="/license">License</a>
+            <a class="item" href="/about">About</a>
+            <a class="item" href="/contact">Contact</a>
+
+            <span class="right header item">&copy; Doc42 - Powered by <a href="http://doc42.io" target="_blank">Doc42</a></span>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.min.js"></script>
+<script src="/docs/js/contents.js"></script>
+<script src="/docs/js/doc42.js"></script>
+<script src="/docs/js/sticky.min.js"></script>
+
+
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85887707-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
