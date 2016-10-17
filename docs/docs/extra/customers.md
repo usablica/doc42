@@ -2,7 +2,7 @@
 layout: doc
 title: Who uses Doc42?
 categories: extra
-permalink: /docs/customers/
+permalink: /customers/
 ---
 
 <p>Doc42 is still young. This list will be updated every month.</p>

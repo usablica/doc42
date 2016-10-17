@@ -3,7 +3,7 @@ layout: doc
 weight: 1
 title: Welcome
 categories: getting-started
-permalink: /docs/getting-started/welcome
+permalink: /getting-started/welcome
 ---
 
 Doc42 is a Jekyll and Kissui starter kit to create awesome documentations. It is an open-source and free software, MIT licensed.

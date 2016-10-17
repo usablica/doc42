@@ -23,7 +23,7 @@
                   {% endif %}
 
                 {%else%}
-                  <a class="item" href="{{ p.url }}">{{ p.title }}</a>
+                    <a class="item" href="{{site.baseurl}}{{ p.url }}">{{ p.title }}</a>
                 {% endif %}
               {% endif %}
             {% endfor %}

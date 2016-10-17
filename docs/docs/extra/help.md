@@ -2,7 +2,7 @@
 layout: doc
 title: Help
 categories: extra
-permalink: /docs/support
+permalink: /support
 ---
 
 <ul>

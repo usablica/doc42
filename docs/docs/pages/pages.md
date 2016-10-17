@@ -3,7 +3,7 @@ layout: doc
 weight: 1
 title: Structure
 categories: pages
-permalink: /docs/pages/structure
+permalink: /pages/structure
 ---
 
 <p>Pages can be added in a Markdown or HTML format. All should be added inside the <code>/docs</code> folder.</p>

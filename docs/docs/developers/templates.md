@@ -3,7 +3,7 @@ layout: doc
 weight: 1
 title: Templates
 categories: developers
-permalink: /docs/developers/templates/
+permalink: /developers/templates/
 ---
 
 Jekyll uses the [Liquid](https://shopify.github.io/liquid/) templating language to

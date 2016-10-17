@@ -2,7 +2,7 @@
 layout: doc
 title: Configuration
 categories: site
-permalink: /docs/site/configuration/
+permalink: /site/configuration/
 ---
 
 <p>Doc42 has several options in the <code>_config.yml</code> and you can customize them for your own system.</p>

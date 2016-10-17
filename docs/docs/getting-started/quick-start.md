@@ -2,7 +2,7 @@
 layout: doc
 title: Quick Start
 categories: getting-started
-permalink: /docs/getting-started/start
+permalink: /getting-started/start
 ---
 
 In this section we study how to install dependencies and how to create the first Doc42 page.

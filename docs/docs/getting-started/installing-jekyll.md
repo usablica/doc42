@@ -3,7 +3,7 @@ layout: doc
 weight: 10
 title: Installing Jekyll
 categories: getting-started
-permalink: /docs/getting-started/installing-jekyll
+permalink: /getting-started/installing-jekyll
 ---
 
 Getting Jekyll installed and ready-to-go should only take a few minutes.

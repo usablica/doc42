@@ -5,7 +5,7 @@ author: "Afshin Mehrabani"
 description: "Doc42 - an easy to use documentation tool"
 keywords: "doc42, documentation, doc, usablica, jekyll"
 
-baseurl: "" # the subpath of your doc, e.g. /doc
+baseurl: "/docs" # the subpath of your doc, e.g. /doc
 url: "http://doc42.io" # the base hostname & protocol for your site
 twitter_username: usablica
 github_username:  usablica
