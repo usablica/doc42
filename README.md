@@ -4,6 +4,8 @@
 
 Kissui + Markdown = :rocket:
 
+<center><img src="http://doc42.io/images/b1.png" /></center>
+
 # Installation
 
 Before you start, make sure you have Jekyll installed. Read [here](http://jekyllrb.com/docs/installation/) for a quick installtion.
